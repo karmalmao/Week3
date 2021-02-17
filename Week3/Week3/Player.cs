@@ -12,9 +12,10 @@ namespace AdventureGame
         public float IATK = 100;
         public float IDEF = 100;
         public float GOLD = 0;
-        public void WChange(float a)
+        public void WChange(float a, string b)
         {
             IATK = a;
+            Pitem = b;
         }
         public void AChange(float a)
         {

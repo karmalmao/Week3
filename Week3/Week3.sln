@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessGame", "ChessGame\Ches
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gamestates", "gamestates\gamestates.csproj", "{EA0F77DB-9B63-47F0-AECC-F059E6FBBBB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "savefile", "savefile\savefile.csproj", "{BB7C92EC-FD4A-4D48-A66B-BE5B42EC7FA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "savefile", "savefile\savefile.csproj", "{BB7C92EC-FD4A-4D48-A66B-BE5B42EC7FA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fileio test", "fileio test\fileio test.csproj", "{31595BC1-F5E5-4C3E-9AE6-1B8A12CF95EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "raylib new", "raylib new\raylib new.csproj", "{C20134B4-D89C-4325-98C5-14E1779676D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{BB7C92EC-FD4A-4D48-A66B-BE5B42EC7FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB7C92EC-FD4A-4D48-A66B-BE5B42EC7FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB7C92EC-FD4A-4D48-A66B-BE5B42EC7FA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31595BC1-F5E5-4C3E-9AE6-1B8A12CF95EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31595BC1-F5E5-4C3E-9AE6-1B8A12CF95EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31595BC1-F5E5-4C3E-9AE6-1B8A12CF95EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31595BC1-F5E5-4C3E-9AE6-1B8A12CF95EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C20134B4-D89C-4325-98C5-14E1779676D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C20134B4-D89C-4325-98C5-14E1779676D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C20134B4-D89C-4325-98C5-14E1779676D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C20134B4-D89C-4325-98C5-14E1779676D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

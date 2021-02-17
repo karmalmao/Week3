@@ -4,6 +4,10 @@ namespace AdventureGame
 {
     public class Person
     {
+        public Person()
+        {
+
+        }
         public Random rand = new Random();
         public string item = "";
         public string name = "";

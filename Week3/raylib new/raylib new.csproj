@@ -3,10 +3,11 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>raylib_new</RootNamespace>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath></OutputPath>
-  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Raylib-cs" Version="3.5.0" />
+  </ItemGroup>
 
 </Project>
